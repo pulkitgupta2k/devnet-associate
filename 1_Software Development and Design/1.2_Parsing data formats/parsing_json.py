@@ -11,5 +11,5 @@ str_dic = """ {"key_1": "value_1", "key_2": "value_2"} """
 json_dic = json.loads(str_dic)
 pprint(json_dic)
 
-with open("test_copy.json", "w") as f:
+with open("test.json", "w") as f:
     json.dump(json_dic, f)
