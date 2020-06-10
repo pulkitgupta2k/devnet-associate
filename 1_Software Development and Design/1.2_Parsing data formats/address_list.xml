@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <root>
-  <addresses>
+  <addresses Id='1'>
     <ip>172.16.0.2</ip>
     <netmask>255.255.255.0</netmask>
   </addresses>
-  <addresses>
+  <addresses Id='2'>
     <ip>172.16.0.3</ip>
     <netmask>255.255.255.0</netmask>
   </addresses>
-  <addresses>
+  <addresses Id='3'>
     <ip>172.16.0.4</ip>
     <netmask>255.255.255.0</netmask>
   </addresses>
