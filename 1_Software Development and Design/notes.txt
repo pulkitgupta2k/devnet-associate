@@ -32,11 +32,16 @@ XML:
 
 Extensible Markup Language
 tags
+- < Person Id="2"></Person>
 root tag
-prolog
-attributes
+prolog 
+- starting tag <?xml version="1.0" encoding="UTF-8" ?>
+attributes 
+- < Person Id="2"> here Id is attribute  
 elements
+- < Person Id="2">{{elements}}</Person>
 empty elements
+- <EmptyElement/>
 
 
 ---------------------------------------------
@@ -45,6 +50,7 @@ XML DOMS:
 
 XML Document Object Model
 tree like structure
+- siblings, parents, childs
 
 ---------------------------------------------
 
