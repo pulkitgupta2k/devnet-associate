@@ -30,7 +30,7 @@ YAML:
 
 XML:
 
-Extensibel Markup Language
+Extensible Markup Language
 tags
 root tag
 prolog
