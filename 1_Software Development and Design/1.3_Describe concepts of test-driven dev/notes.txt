@@ -1,0 +1,6 @@
+Control Flow Statements:
+- Conditionals (if-then-else)
+- Loops (while, for)
+- Exception handling (try)
+
+Imperitive language(HOW) and Declarative language(WHAT)
