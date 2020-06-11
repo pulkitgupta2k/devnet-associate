@@ -1,0 +1,9 @@
+Functions vs methods
+- Function a block of code assigned to a symbol
+- Methods are functions defined as a part of a class invoked by instance of that class
+
+OOPS
+- classes and objects
+
+Modules
+- import
