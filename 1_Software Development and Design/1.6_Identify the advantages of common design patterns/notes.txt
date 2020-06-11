@@ -1,0 +1,14 @@
+Singleton
+- Pattern that restricts classes to only being instantiated once during the execution of the program.
+
+Observer
+- A pattern where dependent objects are updated or modified by one or more subject objects
+- Two classes: subject and Observer
+    - Subject: attach, detach and modify
+    - Observer: update
+
+MVC (Model View Controller)
+- Abstraction where responsibilities are divided into three loosely coupled components
+    - Model: Component that stores data
+    - View: Component that displays data
+    - Controller: Component that handles logic and directs model and View
