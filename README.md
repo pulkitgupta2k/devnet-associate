@@ -1,4 +1,6 @@
-# devnet-associate
+# DEVNET Associate: 200-901 DEVASC
+
+Study material and notes.
 
 ##  1.0 Software Development and Design 15%
     1.1 Compare data formats (XML, JSON, and YAML)
