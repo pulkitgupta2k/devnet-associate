@@ -2,20 +2,20 @@ link: https://git-scm.com/docs
 
 git
 
-init
-clone
+init: Create an empty Git repository or reinitialize an existing one
+clone: Clone a repository into a new directory
 
-add
-status
-diff
-commit
-restore
-reset
+add: Add file contents to the index
+status: Show the working tree status
+diff: Show changes between commits, commit and working tree, etc
+commit: Record changes to the repository
+restore: Restore working tree files
+reset: Reset current HEAD to the specified state
 
-branch
-checkout
-switch
-merge
+branch: List, create, or delete branches
+checkout:  Switch branches or restore working tree files
+switch: Switch branches
+merge: 
 log
 stash
 
