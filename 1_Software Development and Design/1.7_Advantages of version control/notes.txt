@@ -1,0 +1,6 @@
+- Version control system maintain a hostory of changes for references and rollback.
+
+Three-Step cycle:
+- Unmodified
+- Modified
+- Staged
