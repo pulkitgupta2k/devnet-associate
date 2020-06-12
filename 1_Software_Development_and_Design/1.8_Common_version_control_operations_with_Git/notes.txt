@@ -15,11 +15,11 @@ reset: Reset current HEAD to the specified state
 branch: List, create, or delete branches
 checkout:  Switch branches or restore working tree files
 switch: Switch branches
-merge: 
-log
-stash
+merge: Join two or more development histories together
+log: Show commit logs
+stash: Stash the changes in a dirty working directory away
 
-fetch
-pull
-push
-remote
+fetch: Download objects and refs from another repository
+pull: Fetch from and integrate with another repository or a local branch
+push: Update remote refs along with associated objects
+remote: Manage set of tracked repositories
