@@ -2,8 +2,8 @@ link: https://git-scm.com/docs
 
 git
 
-init
-clone
+init: test
+clone: test
 
 add
 status
