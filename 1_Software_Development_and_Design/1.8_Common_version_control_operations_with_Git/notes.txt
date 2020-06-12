@@ -1,4 +1,5 @@
-link: https://git-scm.com/docs
+documentation: https://git-scm.com/docs
+learn git: https://learngitbranching.js.org/
 
 git
 
