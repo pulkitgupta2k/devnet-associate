@@ -1,0 +1,10 @@
+Response Codes
+
+1XX Informational Responses
+2XX Successful Responses
+3XX Redirects
+4XX Client Erroes
+    401 - Unauthorized
+    403 - Forbidden
+    404 - Not Found
+5XX Server Errors

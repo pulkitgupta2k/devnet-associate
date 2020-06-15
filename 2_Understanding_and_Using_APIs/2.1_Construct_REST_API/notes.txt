@@ -1,0 +1,34 @@
+RESTful APIs (Representational State Transfer)
+
+NOT A PROTOCOL
+Uniform Interface
+Client-Server
+Stateless
+
+--------------------------------------------
+
+SOAP (Simple Object Access Protocol)
+
+Only uses XML
+Used where security is issue
+
+--------------------------------------------
+
+HTTP Request methods
+
+- GET
+- HEAD
+- POST
+- PUT
+- DELETE
+- CONNECT
+- OPTIONS
+- TRACE
+
+--------------------------------------------
+
+Use postman to get jokes from the site:
+
+https://api.icndb.com
+
+Reference: http://www.icndb.com/api/
