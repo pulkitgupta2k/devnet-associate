@@ -1,0 +1,16 @@
+There are six architectural constraints which makes any web service are listed below:
+
+- Uniform Interface:
+    - It suggests that there should be an uniform way of interacting with a given server irrespective of device or type of application (website, mobile app)
+- Stateless
+    - It means that the necessary state to handle the request is contained within the request itself and server would not store anything related to the session
+    - In REST, the client must include all information for the server to fulfill the request whether as a part of query params, headers or URI.
+    - Statelessness enables greater availability since the server does not have to maintain, update or communicate that session state.
+- Cacheable
+    - Every response should include whether the response is cacheable or not and for how much duration responses can be cached at the client side. Client will return the data from its cache for any subsequent request and there would be no need to send the request again to the server.
+- Client-Server
+    - REST application should have a client-server architecture. A Client is someone who is requesting resources and are not concerned with data storage, which remains internal to each server, and server is someone who holds the resources and are not concerned with the user interface or user state.
+- Layered System
+    - An application architecture needs to be composed of multiple layers. Each layer doesn’t know any thing about any layer other than that of immediate layer and there can be lot of intermediate servers between client and the end server.
+- Code on Demand(Optional)
+    -  According to this, servers can also provide executable code to the client. The examples of code on demand may include the compiled components such as Java applets and client-side scripts such as JavaScript.

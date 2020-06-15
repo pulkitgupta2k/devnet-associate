@@ -1,0 +1,3 @@
+reference: 
+- https://zapier.com/blog/what-are-webhooks/
+- https://buttercms.com/blog/webhook-vs-api-whats-the-difference
