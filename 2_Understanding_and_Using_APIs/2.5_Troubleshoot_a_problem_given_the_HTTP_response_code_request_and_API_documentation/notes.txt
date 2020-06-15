@@ -1,0 +1,4 @@
+references
+- https://learning.postman.com/docs/postman/sending-api-requests/troubleshooting-api-requests/
+- https://idratherbewriting.com/learnapidoc/docapis_doc_status_codes.html
+- https://blog.restcase.com/rest-api-error-handling-problem-details-response/
