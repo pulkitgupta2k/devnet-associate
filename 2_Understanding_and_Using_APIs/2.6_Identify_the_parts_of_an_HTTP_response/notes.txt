@@ -1,0 +1,37 @@
+HTTP RESPONSE:
+
+
+GET /jokes/random?firstName=John&amp;lastName=Doe HTTP/1.1
+
+######## Request Headers ##################
+
+Accept: application/vnd.github.mercy-preview+json
+User-Agent: PostmanRuntime/7.25.0
+Cache-Control: no-cache
+Postman-Token: 20c01322-eff1-4dc9-bfc4-5b6bfaacbbf2
+Host: api.icndb.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+HTTP/1.1 200 OK         <------------------------    Response Code
+
+######## Response Headers ##################
+
+Date: Wed, 17 Jun 2020 12:27:58 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d279ef5bb052a488b087a72c7a902bc751592396878; expires=Fri, 17-Jul-20 12:27:58 GMT; path=/; domain=.icndb.com; HttpOnly; SameSite=Lax
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET
+Cache-Control: no-cache, must-revalidate
+Expires: Sat, 26 Jul 1997 05:00:00 GMT
+Vary: User-Agent
+CF-Cache-Status: DYNAMIC
+cf-request-id: 0363d92a750000f3ef0db09200000001
+Server: cloudflare
+CF-RAY: 5a4cc48a5848f3ef-LHR
+Content-Encoding: gzip
+
+######## Body ##################
+
+{ "type": "success", "value": { "id": 282, "joke": "John Norris can skeletize a cow in two minutes.", "categories": [] } }
