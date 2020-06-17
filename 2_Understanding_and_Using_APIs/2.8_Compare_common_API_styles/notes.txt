@@ -1,0 +1,8 @@
+REST VS RPC: 
+https://www.smashingmagazine.com/2016/09/understanding-rest-and-rpc-for-http-apis/
+https://apihandyman.io/do-you-really-know-why-you-prefer-rest-over-rpc/
+
+Synchronous vs Asynchronous:
+https://stackoverflow.com/questions/36213948/what-is-the-difference-between-asynchronous-calls-and-callbacks
+
+

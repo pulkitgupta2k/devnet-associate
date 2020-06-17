@@ -1,0 +1,23 @@
+Basic auth:
+
+https://docs.postman-echo.com/?version=latest#42c867ca-e72b-3307-169b-26a478b00641
+
+JWT (JSON Web Tokens):
+
+https://jwt.io/
+
+Header: Defines the algo and type.
+Payload: Defines the data in JSON
+Verify Signature: Your custom secret
+
+- No sessions
+- Stateless
+- Speed
+- Balancing
+
+API Keys:
+
+Api Keys:
+
+- Plain text converted into b64
+- Same as Basic, except meant to be used by a program not by user
