@@ -101,6 +101,13 @@ Sandbox: https://devnetsandbox.cisco.com/RM/Diagram/Index/c3c949dc-30af-498b-9d7
 
 # CISCO SD-WAN
 
+Reference: https://www.cisco.com/c/en_in/solutions/enterprise-networks/sd-wan/demos/walk-through.html#~stickynav=1
+           https://www.youtube.com/watch?v=isMnWZqAh0k
 
+vManage: API end point, GUI frontend. Frontend which we configure.
+vSmart Controller: Controller: Brains of the operation.
+vBond: initiates the bring up process of every vEdge device
+vEdge: End Devices
 
 # NSO
+
