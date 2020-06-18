@@ -1,0 +1,56 @@
+Data Models
+
+module:
+	leaf:
+		type
+		description
+		max-length
+		min-length
+
+--------------------------------------------------
+
+YANG(Yet Another Next Generation)
+
+Module Interfaces:
+	container interfaces:
+		list interface:
+			key "name";
+			leaf name:
+				type string
+				mandatory true
+				configuration true
+	container interface-state:
+		leaf admin-status:
+			type enumerator:
+				enum "up"
+				enum "down"
+				enum "testing"
+
+--------------------------------------------------
+
+YANG Models: 
+	- https://github.com/CiscoDevNet/yang-explorer
+	- https://yangcatalog.org/yang-search/
+
+
+
+NETCONF
+
+- SSH
+- TCP
+- Automate
+- Encrypt
+- Port 830
+
+1. Get Operational state
+2. Get Configuration state
+3. Edit Configuration
+
+
+Content		Conf/Op data		<data>
+Operations	Actions to take		<get>, <get-conf>, <edit-conf>
+Messages	RPC			<rpc>, <rpc-reply>
+Transport	TCP/IP			SSH
+
+-----------------------------------------------------------------
+
