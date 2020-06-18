@@ -54,3 +54,10 @@ Transport	TCP/IP			SSH
 
 -----------------------------------------------------------------
 
+RESTCONF:
+
+- basic auth
+- Accept: application/yang-data+json
+- Content-Type: application/yang-data+json
+
+- "restconf; http server; http auth local; http secure-server;" starting restconf
