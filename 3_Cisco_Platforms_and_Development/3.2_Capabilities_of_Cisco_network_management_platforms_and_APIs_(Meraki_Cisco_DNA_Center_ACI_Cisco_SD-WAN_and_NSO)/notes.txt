@@ -1,0 +1,31 @@
+# MERAKI
+
+Sandbox: https://devnetsandbox.cisco.com/RM/Diagram/Index/a9487767-deef-4855-b3e3-880e7f39eadc?diagramType=Topology
+
+- Cloud Platform
+- Report back to controller in the Cloud
+- No configuration directly in Meraki device
+- Easy s2s VPN
+- One login to manage all the equipment
+
+- Dashboard API
+- Scanning API 
+- Captive Portal API : Guest connection to Wifi
+- Webhooks
+
+Organizations > Networks > Devices
+
+## Dashboard API
+
+- Check Enable access, get key.
+- API key query param : X-Cisco-Meraki-API-Key
+- endpoint : https://dashboard.meraki.com/api/v0/organizations
+
+
+# CISCO DNA CENTER
+
+# ACI
+
+# CISCO SD-WAN
+
+# NSO
