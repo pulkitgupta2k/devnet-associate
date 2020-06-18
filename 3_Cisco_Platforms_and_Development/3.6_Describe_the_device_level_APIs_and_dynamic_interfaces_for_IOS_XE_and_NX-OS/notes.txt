@@ -1,0 +1,23 @@
+## NX-OS
+
+Sandbox: https://devnetsandbox.cisco.com/RM/Diagram/Index/dae38dd8-e8ee-4d7c-a21c-6036bed7a804?diagramType=Topology
+
+- For datacenters
+- Runs Linux -> NX-OS
+- NX-API custom API no NETCONF, RESTCONF
+    - NX-API CLI (OLD)
+        - Accessed over HTTP/HTTPs
+        - Not RESTFul API
+        - Only POST
+        - Enabling NX-API:
+            - "feature nxapi"
+    - NX-API REST (NEW)
+        - Object Model : Management Information tree
+        - root layer : sys
+        - visore: doc for NX-API REST
+
+## IOS-XE (Covered in 3.8)
+
+YANG
+NETCONF
+RESTCONF
