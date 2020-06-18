@@ -109,5 +109,8 @@ vSmart Controller: Controller: Brains of the operation.
 vBond: initiates the bring up process of every vEdge device
 vEdge: End Devices
 
-# NSO
+# NSO (Network Service Orchestrator)
 
+- Used to automate network devices
+- GUI, REST API, Python API
+- Used by Service Providers
