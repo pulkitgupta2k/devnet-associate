@@ -114,3 +114,4 @@ vEdge: End Devices
 - Used to automate network devices
 - GUI, REST API, Python API
 - Used by Service Providers
+- Can be used by legacy equipments
