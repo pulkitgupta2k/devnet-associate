@@ -1,4 +1,4 @@
-# MERAKI
+# MERAKI (Management for small business)
 
 Sandbox: https://devnetsandbox.cisco.com/RM/Diagram/Index/a9487767-deef-4855-b3e3-880e7f39eadc?diagramType=Topology
 
@@ -16,16 +16,91 @@ Sandbox: https://devnetsandbox.cisco.com/RM/Diagram/Index/a9487767-deef-4855-b3e
 Organizations > Networks > Devices
 
 ## Dashboard API
+    - Check Enable access, get key.
+    - API key query param : X-Cisco-Meraki-API-Key
+    - endpoint : https://dashboard.meraki.com/api/v0/organizations
 
-- Check Enable access, get key.
-- API key query param : X-Cisco-Meraki-API-Key
-- endpoint : https://dashboard.meraki.com/api/v0/organizations
+
+# ACI (Management for datacenters)
+
+## Nexus
+
+    Sandbox: https://devnetsandbox.cisco.com/RM/Diagram/Index/dae38dd8-e8ee-4d7c-a21c-6036bed7a804?diagramType=Topology
+
+    - For datacenters
+    - Runs Linux -> NX-OS
+    - NX-API custom API no NETCONF, RESTCONF
+        - NX-API CLI (OLD)
+            - Accessed over HTTP/HTTPs
+            - Not RESTFul API
+            - Only POST
+            - Enabling NX-API:
+                - "feature nxapi"
+        - NX-API REST (NEW)
+            - Object Model : Management Information tree
+            - root layer : sys
+            - visore: doc for NX-API REST
+
+- Nexus 9000 series
+- VXLAN on IS-IS : Layer 2 information carried in the Layer3 packet from one device to another.
+- APIC controllers are servers which are brains of the model
+
+- Universal
+    - Tenant Common
+        - Networking (Actual physical network conf)
+            - VRFs
+            - Bridge Domains
+            - Subnets
+            - External Networks
+        - Policy
+            - Application Profiles
+            - EPGs (End Point Groups):
+                Represents same kind of servers
+            - Contracts
+                Enable connectivity between Devices
+            - Filters
+    - Tenant A
+        - Networking (Actual physical network conf)
+            - VRFs
+            - Bridge Domains
+            - Subnets
+            - External Networks
+        - Policy
+            - Application Profiles
+            - EPGs (End Point Groups):
+                Represents same kind of servers
+            - Contracts
+                Enable connectivity between Devices
+            - Filters
+
+Sandbox: https://devnetsandbox.cisco.com/RM/Diagram/Index/5a229a7c-95d5-4cfd-a651-5ee9bc1b30e2?diagramType=Topology
+
+- REST API, COBRA SDK, APIC TOOLKIT
 
 
-# CISCO DNA CENTER
+# CISCO DNA CENTER (Management for enterprise)
 
-# ACI
+Reference: https://www.youtube.com/watch?v=hzsmoY2xdjQ
+
+
+- Catalyst 9000 series
+- Automating campuses
+- 5 Applications:
+    - Design
+    - Policy
+    - Provision
+    - Assurance
+    - Platform
+
+Northbound - Intent API
+Southbound - Mutivendor SDK (infrastructure)
+Eastbound - Cisco devices (Meraki, Stealthwatch)
+Westbound - 3rd party solutions
+
+Sandbox: https://devnetsandbox.cisco.com/RM/Diagram/Index/c3c949dc-30af-498b-9d77-4f1c07d835f9?diagramType=Topology
 
 # CISCO SD-WAN
+
+
 
 # NSO
