@@ -1,0 +1,27 @@
+#Webex Teams
+
+- Like Slack, Microsoft Teams
+- Creating teams, rooms, sending messages using python
+- Python SDK webexteamssdk
+
+#Webex devices
+
+- REST X-API
+
+#Cisco Unified Communication Manager including AXL and UDS interfaces, and Finesse
+
+- Cisco Unified Communication Manager: VOIP Operations within Cisco Colaboration
+- UDS (User Data Service)
+    - REST API 
+        - XML
+- Administrative XML (AXL)
+    - Not REST
+    - SOAP API
+        - SOAP UI
+- Cisco Finesse
+    - For large call centers
+    - UCCX (Unified Contact Center Express)
+        - REST API
+        - XML
+    - Tracking calls
+
