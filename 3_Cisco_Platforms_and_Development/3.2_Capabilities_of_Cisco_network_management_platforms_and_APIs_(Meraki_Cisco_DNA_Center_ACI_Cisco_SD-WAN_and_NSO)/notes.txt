@@ -75,7 +75,7 @@ Organizations > Networks > Devices
 
 Sandbox: https://devnetsandbox.cisco.com/RM/Diagram/Index/5a229a7c-95d5-4cfd-a651-5ee9bc1b30e2?diagramType=Topology
 
-- REST API, COBRA SDK, APIC TOOLKIT
+- REST API, COBRA SDK, ACI TOOLKIT
 
 
 # CISCO DNA CENTER (Management for enterprise)
