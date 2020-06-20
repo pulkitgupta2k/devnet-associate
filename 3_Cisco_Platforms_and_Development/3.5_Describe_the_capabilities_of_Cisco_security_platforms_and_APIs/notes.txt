@@ -1,0 +1,30 @@
+# Firepower
+
+- Firepower Devices, Firepower Threat Defense, Firepower Management Center
+- Threat Centric Policies
+    - Login
+    - Create Policy
+        - Default Policy
+        - Policy ID
+    - Rules
+    - Delete
+
+# Umbrella
+
+- Protection on the go
+- For remote machines
+
+# AMP (Advanced Malware Protection)
+
+- Checks for malware in the network
+- Can be installed on FP devices or end devices
+
+# ISE (Identity Service Engine)
+
+- Provides auth serices to the network
+- To connect to the network one has to be authenticated by the ISE
+
+# ThreatGrid
+
+- Learn what malware is trying to do
+- Separate machine
