@@ -1,0 +1,12 @@
+Switches:
+    - L2 Switching
+Routers:
+    - L3 Routing
+Firewalls:
+    - Default is to block all packets
+    - Types:
+        - Packet Filtering (L2, L3, L4)
+        - Stateful Filtering
+        - New Gen Fire Wall (L5)
+Load balancers:
+    - Balance data load between servers/devices

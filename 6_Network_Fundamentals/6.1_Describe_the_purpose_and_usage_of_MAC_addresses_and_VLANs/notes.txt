@@ -3,6 +3,7 @@ MAC Addresses:
 - Layer two identifiers
 - 12 hexadecimals
 - OUI and Unique identifiers 
+- Sending frames 
 
 VLAN:
 

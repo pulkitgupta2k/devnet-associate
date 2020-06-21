@@ -1,0 +1,19 @@
+DHCP (Dynammic Host Configuration Protocol):
+    - Handing out IPs to the devices in the network
+    - Uses UDP
+    - Port 67: Used by the server
+    - Port 68: Used by the client
+DNS (Domain Name Server):
+    - Conversion of domain name to IP addresses
+    - Used UDP
+    - Port 53
+NAT (Network Address Translation):
+    - Converts local IPs to routable public IP addresses
+SNMP (Simple Network Management protocol):
+    - Used for management of network devices
+    - Port: 161
+NTP (Network Time Protocol): 
+    - Used for clock sync b/w systems
+    - Stratum levels
+    - Uses UDP
+    - Port 123
