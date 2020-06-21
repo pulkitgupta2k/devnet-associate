@@ -1,0 +1,10 @@
+MAC Addresses:
+
+- Layer two identifiers
+- 12 hexadecimals
+- OUI and Unique identifiers 
+
+VLAN:
+
+- Breaks the broadcast domain
+- Layer 2 feature

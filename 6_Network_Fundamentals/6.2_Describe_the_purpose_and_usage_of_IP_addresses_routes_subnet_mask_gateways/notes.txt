@@ -1,0 +1,17 @@
+IP addresses
+
+- Layer 3 identifier
+
+Routes
+
+- Gain information of distant networks
+
+Subnet mask / prefix
+
+- Identifies a network
+- Network and Host network
+
+gateways
+
+- where to transfer the packets
+- Default routes
