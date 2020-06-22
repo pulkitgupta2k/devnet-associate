@@ -1,0 +1,15 @@
+Edge Computing
+
+- Moving the data processing and storage closer to the user
+- CDN : Content Delivery Network
+
+- Pros:
+    - Speed/Latency
+    - Privacy
+    - Resiliency
+    - Scalability
+
+- Cons
+    - Resource Requirements
+    - Infrastructure Complexity
+    - Distribution of Security, Knowledge, etc

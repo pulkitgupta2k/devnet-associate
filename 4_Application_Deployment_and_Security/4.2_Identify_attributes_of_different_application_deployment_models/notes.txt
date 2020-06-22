@@ -1,0 +1,13 @@
+Private cloud
+
+- Privately owned infrastructure within an organization
+
+
+Public cloud
+
+- Publicly available cloud infrastructure over internet
+- eg: AWS, GCP, Azure, etc
+
+Hybrid cloud
+
+- Using both private and public cloud

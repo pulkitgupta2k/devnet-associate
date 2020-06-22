@@ -1,0 +1,35 @@
+Virtual Machines
+
+- Software defined machine
+
+Bare Metal
+
+- Refers to the physical computer components
+- VMs live inside it
+
+Hypervisor
+
+- Software that manages the virtual environments on the Bare Metal
+- eg: VMWare, VirtualBox, HiperV
+- Types:
+    - Type 1
+        - Directly on the Machine
+        - Enterprise grade
+        - No underlying os
+    - Type 2
+        - Runs inside a os
+        - eg: VMWare, VirtualBox
+
+Containers
+
+- Another layer of abstraction above VMs
+- Isolated execution environments
+
+Docker
+
+- Management tool for containers
+
+|Container|Container|Container|Container|
+|        VM         |        VM         |
+|               Bare Metal              |
+
