@@ -1,0 +1,11 @@
+Management Plane:
+- Managing network devices
+- SNMP, NETCONF, SSHn
+
+Data Plane:
+- Actually do forwarding
+
+Control Plane:
+- How to forward 
+- Routing protocols
+- MAC address table

@@ -1,0 +1,5 @@
+NAT problem, Transport Port blocked, proxy, and VPN
+Firewalls, IPS, ACLs
+MTUs
+Loopback Interfaces
+Insecure Protocols (HTTP, Telnet)
