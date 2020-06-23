@@ -1,0 +1,34 @@
+#Continuous Integration Continuous Deployment
+
+##Continuous Integration
+
+- Automating the combination of code changes from multiple contributers into a single code base
+
+- Components:
+    - Source Code Control
+        - Version Control Management System
+        - Eg: git
+    - Build Automation
+        - Automatic Compilation
+    - Unit Testing
+        - Automating the testing of individual components of software
+        - Test Driven Development
+    - Branch Merging
+        - Merging Branches
+    - Integration Testing
+        - How the individual components come together
+        
+##Continuous Deployment
+
+- Automating the delivery of IT services to the users
+
+- Components:
+    - Central Repository
+        - Pushing the code into the centralized Repository
+    - System Testing
+        - How entire system is tested
+        - Code has access to all system resources it needs
+    - Deployment
+        - Environment cloning
+        - Infrastructure as code
+    - User-Acceptance Testing
