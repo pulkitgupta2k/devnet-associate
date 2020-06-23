@@ -1,0 +1,13 @@
+docker build -t dockerfile:version .  # building a container from dockerfile
+docker images # show docker images
+docker run -d -p 5000:5000 dockerfile # running container -d -> detached, -p port forwarding
+docker stop <container ID> # stopping a container
+docker ps # list running containers
+docker ps -a # list all past containers
+docker container rm <NAME> # removing a container
+
+docker tag <IMAGE ID> <DOCKER ID> # for pushing the container into docker hub
+docker push <DOCKER ID> # push
+
+docker rmi <IMAGE ID> -f # removing the image locally
+docker pull <DOCKER ID> # getting the image using docker ID
