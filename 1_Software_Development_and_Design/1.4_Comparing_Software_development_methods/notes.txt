@@ -1,6 +1,6 @@
 #Waterfall
 
-- This methodology is very sequential and linear; based on a clear scope from the start and tackling each step in order. This means that as each one of the eight Waterfall stages (conception, initiation, analysis, design, construction, testing, implementation, and maintenance) are reached, the developers move on to the next step.
+- This methodology is very sequential and linear, based on a clear scope from the start and tackling each step in order. This means that as each one of the eight Waterfall stages (conception, initiation, analysis, design, construction, testing, implementation, and maintenance) are reached, the developers move on to the next step.
 - The narrow and linear nature of Waterfall makes it great for simple, unchanging projects. It is easy to manage, with each step having specific deliverables and clearly delineated start and finish points.
 - The idea is that development does not start until all of the scoping out actions have been reached and this helps projects to deliver on time.
 -  Waterfall processes struggle with change. They struggle because they are so sequential and usually, after the completion of a phase, it is challenging and costly to go back and change anything. Also, because development does not start until the first few phases are finished, there won’t be any working software for stakeholders to evaluate until late in the process.
