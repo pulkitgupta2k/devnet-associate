@@ -1,0 +1,22 @@
+File Management
+- rm
+- cp
+- mv
+- touch
+- nano
+- cat
+- vi
+- mkdir
+
+
+Directory Navigation
+- cd
+- pwd
+- ls
+
+Environmental Variables
+- $HOME
+
+Permissions
+- user, group, other
+- read write execute
