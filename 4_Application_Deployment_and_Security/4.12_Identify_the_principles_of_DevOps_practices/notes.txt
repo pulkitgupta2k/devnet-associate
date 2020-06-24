@@ -1,0 +1,19 @@
+Iterative and Incremental
+- Why came into picture:
+    - Large set of changes
+    - Long delay b/w development and deployment
+    - Slow time to market
+    - Zero work/life balance
+- Deliver faster and more reliably
+- Easier integration
+- Faster time to deployment
+- Human centric
+
+Continuous and Automated
+- Continuous makes deployment routine
+- Automation makes automation reliable
+
+End to End Responsibility
+- Organizational and functionality visibility
+- Brings different roles in an organizations together
+- Feedback and intrumentation
