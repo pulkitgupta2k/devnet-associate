@@ -1,0 +1,9 @@
+XSS (Cross Site Scripting)
+- Browser side Script
+- Script can access cookies, session tokens
+
+SQL injections
+- SQL Commands
+
+CSRF (Cross Site Request Forgery)
+- Making request from remote user

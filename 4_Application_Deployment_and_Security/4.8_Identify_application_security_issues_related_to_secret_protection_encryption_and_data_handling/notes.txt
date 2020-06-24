@@ -1,0 +1,19 @@
+Data in transit:
+- Use HTTPS, SFTP, SSH in place of HTTP, FTP, telnet
+- Securing data in transportation from sorce to dest
+- No clear text transmission 
+
+
+Data in Rest:
+- Files are encrypted
+- Database is encrypted
+- RAM purge correctly
+- Apps are auth correctly
+- using environment variables or .env Files
+- Disk encryption
+    - Windows - bitlocker
+    - MacOS - File Vault
+    - Linux - Tomb
+    - SQL server
+        - Master Key
+        - Slave Key
