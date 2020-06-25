@@ -1,1 +1,11 @@
 reference: https://www.datacamp.com/community/tutorials/unit-testing-python
+
+Unit Testing:
+
+- Granular
+- Modular
+- Automated
+
+- Unit: Piece of code being tested
+- Test Case: The code performing the test
+- Test Runner: The script engine for automating test cases
