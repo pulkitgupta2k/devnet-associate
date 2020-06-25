@@ -1,0 +1,3 @@
+# Infrastructure as a Code
+
+- Rather than configuring devices itself through cli and/or GUI, systems and networks are deployed by code and scripts.
