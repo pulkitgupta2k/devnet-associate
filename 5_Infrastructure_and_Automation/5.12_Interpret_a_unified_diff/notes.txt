@@ -1,0 +1,12 @@
+diff first.txt second.txt -u
+
+OUTPUT:
+
+@@ -1,4 +1,5 @@
+ hello my name is pulkit    <------ in both of the file
+-this is a file             <------ in first file not in second file
+-bla bla bla                <------ in first file not in second file
++this is not a file         <------ not in first file but in second file
++bla bla Bla                <------ not in first file but in second file
++extra line                 <------ not in first file but in second file
+ another line               <------ in both of the file
