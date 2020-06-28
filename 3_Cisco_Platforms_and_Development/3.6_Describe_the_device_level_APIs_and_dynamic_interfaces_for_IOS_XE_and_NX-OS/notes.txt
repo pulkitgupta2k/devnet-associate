@@ -21,3 +21,5 @@ Sandbox: https://devnetsandbox.cisco.com/RM/Diagram/Index/dae38dd8-e8ee-4d7c-a21
 YANG
 NETCONF
 RESTCONF
+
+Default data encoding: XML

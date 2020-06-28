@@ -11,3 +11,8 @@ docker push <DOCKER ID> # push
 
 docker rmi <IMAGE ID> -f # removing the image locally
 docker pull <DOCKER ID> # getting the image using docker ID
+
+
+---------------------------------------------------------------------------
+
+docker run -d -p 5000:5001 dockerfile  # Host Port: 5000; Container Port: 5001
