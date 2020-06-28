@@ -52,6 +52,22 @@ Operations	Actions to take		<get>, <get-conf>, <edit-conf>
 Messages	RPC			<rpc>, <rpc-reply>
 Transport	TCP/IP			SSH
 
+NERCONF OPERATIONS:
+
+close-session			Terminate this session
+commit					Commit the contents of the <candidate/> configuration database to the <running/> configuration database
+copy-config				Copy a configuration database
+create-subscription		Create a NETCONF notification subscription
+delete-config			Delete a configuration database
+discard-changes			Clear all changes from the <candidate/> configuration database and make it match the <running/> configuration database
+edit-config				Modify a configuration database
+get						Retrieve data from the running configuration database and/or device statistics
+get-config				Retrieve data from the running configuration database
+kill-session			Terminate another session
+lock					Lock a configuration database so only my session can write
+unlock					Unlock a configuration database so any session can write
+validate				Validate the entire contents of a configuration database
+
 -----------------------------------------------------------------
 
 RESTCONF:

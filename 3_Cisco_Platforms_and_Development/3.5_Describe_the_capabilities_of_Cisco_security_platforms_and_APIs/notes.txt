@@ -13,11 +13,13 @@
 
 - Protection on the go
 - For remote machines
+- Cloud security Platform
 
 # AMP (Advanced Malware Protection)
 
 - Checks for malware in the network
 - Can be installed on FP devices or end devices
+- Can be used to produce a list of vulnerable software on user devices using firepower api
 
 # ISE (Identity Service Engine)
 

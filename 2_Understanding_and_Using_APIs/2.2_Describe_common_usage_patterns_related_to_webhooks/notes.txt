@@ -1,3 +1,6 @@
 reference: 
 - https://zapier.com/blog/what-are-webhooks/
 - https://buttercms.com/blog/webhook-vs-api-whats-the-difference
+
+
+Server can listen or receive calls from a website through webhooks
