@@ -7,6 +7,12 @@ DNS (Domain Name Server):
     - Conversion of domain name to IP addresses
     - Used UDP
     - Port 53
+    - Records:
+        - A: Known as a DNS host record, stores a hostname and its corresponding IPv4 address
+        - AAAA: Stores a hostname and its corresponding IPv6 address.
+        - CNAME: Can be used to alias a hostname to another hostname. When a DNS client requests a record that contains a CNAME, which points to another hostname.
+        - MX Records: Specifies an SMTP email server for the domain, used to route outgoing emails to an email server.
+        - NS Records: Specifies that a DNS Zone.
 NAT (Network Address Translation):
     - Converts local IPs to routable public IP addresses
 SNMP (Simple Network Management protocol):

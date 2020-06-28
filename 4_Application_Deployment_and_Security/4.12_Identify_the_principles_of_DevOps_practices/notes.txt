@@ -17,3 +17,12 @@ End to End Responsibility
 - Organizational and functionality visibility
 - Brings different roles in an organizations together
 - Feedback and intrumentation
+
+Infrastructure as a Code:
+- Infrastructure as a code (IaC) is an infrastructure management approach that makes continuous delivery and DevOps possible.
+Containerization:
+- Using containers to simulate exact environment.
+Microservices
+- The microservice architectural approach entails building one application as a set of independent services that communicate with each other, but are configured individually
+Cloud Infrastructure
+- Using public cloud services to eliminate server-management operations.
