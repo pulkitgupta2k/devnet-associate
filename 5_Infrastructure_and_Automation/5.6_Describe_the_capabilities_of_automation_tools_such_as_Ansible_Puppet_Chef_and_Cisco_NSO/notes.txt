@@ -1,0 +1,8 @@
+Ansible:
+    - Master only. No client software needed.
+
+Puppet:
+    - Master-Agent architecture. Client software needed.
+
+Chef:
+    - Master-Agent architecture. Also requires workstation. 
