@@ -2,8 +2,10 @@ Response Codes
 
 1XX Informational Responses
 2XX Successful Responses
+    204 - Empty response
 3XX Redirects
-4XX Client Erroes
+4XX Client Errors
+    400 - Invalid syntax
     401 - Unauthorized
     403 - Forbidden
     404 - Not Found
