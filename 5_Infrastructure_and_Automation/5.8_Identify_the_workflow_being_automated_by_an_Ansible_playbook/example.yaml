@@ -1,0 +1,17 @@
+---
+- name: Gather IOS-XE Facts
+  hosts: iosxe
+  connection: local
+  tasks:
+    - name: Gather IOS Facts
+      ios_facts:
+        provider:
+          host: ios-xe-mgmt-latest.cisco.com
+          port: 8181
+          authorize: yes
+          username: developer
+          password: C1sco12345
+      register: ios_data
+    
+    - name: All data-
+      debug: msg="{{ ios_data }}"
