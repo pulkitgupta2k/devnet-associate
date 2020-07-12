@@ -1,0 +1,30 @@
+ansible.cfg & hosts -> /etc/ansible/
+
+hosts ->
+    - Define hosts
+    - eg:
+        [nsox]
+        172.16.30.101
+    - childrens:
+        [childgroup2]
+        host1
+        host2
+        
+        [childgroup1]
+        host2
+        host3
+        
+        [parent1:children]
+        childgroup1
+        childgroup2
+
+group_vars
+    - dir for groups
+    - yaml structure
+
+host_vars
+    - dir for hosts
+    - yaml structure
+
+How to run playbooks
+    - ansible-playbook

@@ -4,6 +4,7 @@ UCS (Unified Computing Server):
 
 Sandbox: https://devnetsandbox.cisco.com/RM/Diagram/Index/a63216d2-e891-4856-9f27-309ca61ec862?diagramType=Topology
 
+- JSON
 - Cloud Server
 - Similar to Meraki - for compute engines
 - REST 
@@ -25,4 +26,4 @@ Sandbox: https://devnetsandbox.cisco.com/RM/Diagram/Index/3323b7b0-b70b-4b1e-a92
 - Running the Data Center
 - Regardless of the platform
 - REST API
-- XML
+- XML or JSON
