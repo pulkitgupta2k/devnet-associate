@@ -19,7 +19,8 @@ Organizations > Networks > Devices
     - Check Enable access, get key.
     - API key query param : X-Cisco-Meraki-API-Key
     - endpoint : https://dashboard.meraki.com/api/v0/organizations
-
+    - RESTFul API
+    - HTTPs
 
 # ACI (Management for datacenters)
 
