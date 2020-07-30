@@ -12,4 +12,4 @@ json_dic = json.loads(str_dic)
 pprint(json_dic)
 
 with open("test.json", "w") as f:
-    json.dump(json_dic, f)
+    json.dump(json_dic, f,sort_keys=True, indent = 4, ensure_ascii=False)  # Presents the data in proper json format
