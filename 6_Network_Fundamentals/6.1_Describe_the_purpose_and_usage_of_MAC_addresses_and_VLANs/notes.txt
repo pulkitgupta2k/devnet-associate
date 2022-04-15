@@ -5,7 +5,18 @@ MAC Addresses:
 - OUI and Unique identifiers 
 - Sending frames 
 
-VLAN:
+Switches and Frames:
+- Used by switches to determine where hosts reside on the switch
+- When a host sends a frame, the switch broadcasts this out of all ports, except the one that it originated
+- Since the switch broadcasts everytime a packet is sent, VLANs are needed to break the single "broadcast" domain
 
+
+VLAN:
+Overall VLANs are needed for the following reasons:
+- Security is another reason to implement VLANs, we wouldn't want certain departments having access to things like all employees pay or company strategies
+- Voice and Data should be separate VLANs
+- Separation and different treatment of traffic
+For example:
+- VOIP and Video need to have the highest priority after routing and routing protocols, otherwise choppy audio, dropped calls, among many other issues will occur
 - Breaks the broadcast domain
 - Layer 2 feature
